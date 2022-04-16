@@ -102,7 +102,6 @@ header .nav ul li a {
 }
 
 .mainvisual .swiper-slide {
-  z-index: 10;
   height: auto;
 }
 
@@ -369,9 +368,6 @@ header .nav ul li a {
 @media screen and (max-width: 375px) {
   .wrapper {
     padding: 0 15px;
-  }
-  .swiper-slide {
-    height: auto;
   }
   .swiper-slide img {
     height: 590px;

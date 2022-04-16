@@ -89,23 +89,16 @@ header {
   z-index: 1;
 }
 
-// -----------------------------------header--------------------------------
+// -----------------------------------mainvisual--------------------------------
 .mainvisual {
-  .swiper-wrapper {
-
-  }
-  
   .swiper-slide {
-
-    z-index: 10;
     height: auto;
+
     img {
       height: 750px;
       object-fit: cover;
     }
   }
-
-
 }
 
 
@@ -333,7 +326,6 @@ header {
 
   // ----------------mainvisual-------------------
   .swiper-slide {
-    height: auto;
     img {
       height: 590px;
     }

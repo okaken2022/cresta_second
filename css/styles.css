@@ -1,0 +1,380 @@
+html {
+  font-size: 100%;
+  color: #282F35;
+  letter-spacing: 0.05em;
+}
+
+body {
+  font-family: Noto Serif JP, Noto serif;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+.section-title h2 {
+  font-size: 3.75rem;
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
+
+.section-title span {
+  margin-left: 50px;
+  display: inline-block;
+  background-color: #282F35;
+  width: 200px;
+  height: 5px;
+}
+
+.back-ground-text {
+  font-size: 5.625rem;
+  font-weight: bold;
+  color: #171717;
+  opacity: 5%;
+  margin-top: 70px;
+  text-align: right;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 120px;
+  font-style: italic;
+  color: white;
+  line-height: 1;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 9999;
+}
+
+header .site-title {
+  font-size: 1.625rem;
+}
+
+header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav ul li a {
+  color: white;
+  margin-left: 30px;
+}
+
+.header-bg {
+  width: 100%;
+  height: 85px;
+  background-color: #282F35;
+  position: fixed;
+  z-index: 1;
+}
+
+.mainvisual .swiper-slide {
+  z-index: 10;
+  height: auto;
+}
+
+.mainvisual .swiper-slide img {
+  height: 750px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#concept {
+  padding: 100px 0 70px 100px;
+}
+
+#concept .copy {
+  font-size: 1.875rem;
+  text-align: center;
+  margin: 0 auto 60px;
+  letter-spacing: 0.05em;
+}
+
+#concept .contents {
+  padding-right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#concept .contents .text {
+  max-width: 440px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+#concept .contents img {
+  width: 440px;
+  height: 240px;
+}
+
+#works {
+  background-image: url("../img/works-bgi@2x.jpg");
+  width: 100%;
+  background-size: cover;
+  padding: 100px 0 70px 0;
+  text-align: center;
+}
+
+#works .section-title {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: white;
+}
+
+#works .section-title span {
+  background-color: white;
+}
+
+#works .articles {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#works .card {
+  max-width: 320px;
+}
+
+#works .card-text {
+  background-color: white;
+  padding: 25px 20px;
+}
+
+#works .btn {
+  display: inline-block;
+  color: #282F35;
+  padding: 20px 70px;
+  margin-top: 80px;
+  background-color: #F7D43F;
+  border-radius: 40px;
+}
+
+#works .back-ground-text {
+  text-align: left;
+  color: #282F35;
+  opacity: 1;
+}
+
+#service {
+  padding: 100px 0 70px 0;
+}
+
+#service .section-title {
+  padding-left: 100px;
+}
+
+#service .service-link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#service .service-link ul li {
+  position: relative;
+}
+
+#service .service-link ul li p {
+  position: absolute;
+  top: 41%;
+  left: 31%;
+  color: white;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+#service .service-link ul li .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #171717;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#service .service-link ul li .mask:hover {
+  opacity: 0.3;
+}
+
+#contact {
+  background-image: url("../img/contact-bgi@2x.jpg");
+  width: 100%;
+  background-size: cover;
+  padding: 100px 0 70px 0;
+  text-align: center;
+}
+
+#contact .section-title {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: white;
+}
+
+#contact .section-title span {
+  background-color: white;
+}
+
+#contact .consult {
+  color: white;
+  font-size: 1.25rem;
+}
+
+#contact .btn {
+  display: inline-block;
+  color: #282F35;
+  padding: 20px 70px;
+  margin-top: 80px;
+  background-color: #F7D43F;
+  border-radius: 40px;
+}
+
+#contact .back-ground-text {
+  text-align: left;
+  color: #282F35;
+  opacity: 1;
+}
+
+.footer {
+  height: 80px;
+  background-color: white;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  padding: 30px 0;
+}
+
+.contact-page {
+  background-image: url("../img/contact-bgi@2x.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 453px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.contact-page header {
+  position: inherit;
+}
+
+.contact-page .title {
+  color: white;
+  font-size: 3.75rem;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+.contact-page .back-ground-text {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 3%;
+}
+
+.form {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.form dl dt {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.form dl .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form dl .checkbox input {
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.form dl .checkbox label {
+  margin-right: 20px;
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.form-btn .btn {
+  display: inline-block;
+  color: #282F35;
+  padding: 20px 70px;
+  margin: 80px 0;
+  background-color: #F7D43F;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 0 6px #1B1310;
+          box-shadow: 0 0 6px #1B1310;
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+  .swiper-slide {
+    height: auto;
+  }
+  .swiper-slide img {
+    height: 590px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
